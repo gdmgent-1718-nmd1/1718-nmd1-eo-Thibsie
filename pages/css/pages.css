@@ -15,4 +15,7 @@ img {
     max-width: 100%; /* Afbeeldingen responsive maken */
 }
 
+h2 {
+    color: red;
+}
 /* Voeg jouw css hieraan toe */
