@@ -9,6 +9,7 @@ body {
     color: #333;
     line-height: 1.5em;
     padding: 25px;
+    /* background-color: hsla(198, 55%, 65%, 1); */
 }
 
 img {
@@ -16,6 +17,6 @@ img {
 }
 
 h2 {
-    color: red;
+    color: #333;
 }
 /* Voeg jouw css hieraan toe */
