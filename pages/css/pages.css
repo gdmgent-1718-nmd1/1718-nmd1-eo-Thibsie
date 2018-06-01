@@ -20,3 +20,131 @@ h2 {
     color: #333;
 }
 /* Voeg jouw css hieraan toe */
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+  .clearfix { display: inline-block; }
+  * html .clearfix { height: 1%; }
+  .clearfix { display: block; }
+  @import url('https://fonts.googleapis.com/css?family=Hind');
+
+  *{
+    box-sizing: border-box;
+}
+.style{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+}
+.font1{
+    font-family: 'Hind', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+.font2{
+    font-family: 'Hind', sans-serif;
+    font-weight: 500;
+    font-size: 16px
+}
+.font3{
+    font-family: 'Hind', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+}
+.color{
+    width: 150px;
+    height: 150px;
+    float: left;
+    color: white;
+    padding: 15px;
+    font-size: 12px
+}
+.red{
+    background: rgb(205, 20, 49);
+}
+.darkblue{
+    background: rgb(62, 125, 153);
+}
+.blue{
+    background: rgb(117,185,215);
+}
+.bluegreen{
+    background: rgb(108, 192, 166);
+}
+.black{
+    background: rgb(0,0,0);
+    color: white;
+}
+.grey{
+    background:rgb(235,231,231);
+    color: black;   
+}
+.button{
+    padding: 15px 7px 15px 7px;
+    background: #CD1431;
+    width: 170px;
+    text-align: center;
+    color: white;
+    font-family: 'Hind', sans-serif;
+    font-weight: bold;
+    border-radius: 15px;
+    float: left;
+    margin-right: 5px;
+    transition: all 0.3s ease;
+    border: 2px solid #FFF;
+
+}
+.button:hover{
+    padding: 15px 7px 10px 7px;
+    width: 170px;
+    text-align: center;
+    color: white;
+    font-family: 'Hind', sans-serif;
+    font-weight: 800;
+    border: none;    
+    border: 2px solid white;
+}
+input{
+    width: 500px;
+    height: 40px;
+    border: 1px solid #707070;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+.naam{
+    font-family: 'Hind', sans-serif;
+    font-weight: bold;
+    color: #3E7D99;
+}
+
+ul li{
+    display: inline-block;
+    float: right;
+}
+
+/*.navigatie{
+    display:inline-block;   
+    font-family: 'Hind', sans-serif;
+    text-align: center;
+    width: 500px;
+    background: #3E7D99;
+    height: 40px;
+}
+.binnen{
+    float: left;
+    color:white;
+    width: 100px;
+    padding-top:7px;
+    height: 40px;
+    position: relative;
+    left: 150px;
+    text-align: center;
+}*/
